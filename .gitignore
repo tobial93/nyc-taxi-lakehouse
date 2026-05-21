@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Airflow
+airflow/logs/
+airflow/plugins/__pycache__/
+
+# Credentials — never commit
+*.json
+.env
+*.env
+
+# OS
+.DS_Store
